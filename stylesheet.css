@@ -1,0 +1,92 @@
+body{
+	background-color:#303330;
+	width: 80%;
+	height: fit-content;
+	position: relative;
+	left: 10%;
+}
+.timer{
+	position: relative;
+	height: 25vh;
+}
+.stopwatch{
+	position: absolute;
+	left: 65%;
+	top: 25%;
+	width: 20vw;
+	color: white;
+}
+.beststopwatch{
+	position: absolute;
+	top: 25%;
+	left: 85%;
+	color: white;
+}
+.time{
+	position: absolute;
+	top: 10%;
+	left: 65%;
+	width: 20vw;
+	color: white;
+}
+.besttime{
+	position: absolute;
+	top: 10%;
+	left: 85%;
+	color: white;
+}
+.start{
+	position:relative;
+	height:20vh;
+}
+.info{
+	color: green;
+	text-align: left;
+	font-size: 35px;
+	left: 2%;
+	position: absolute;
+}
+.newgame{
+	color: green;
+	text-align: right;
+	font-size: 25px;
+	left: 80%;
+	position: absolute;
+}
+.newgame:hover{
+	cursor: pointer;
+}
+.grid{
+	border: 1px solid white;
+	position: relative;
+	left: 5%;
+	height: 92vh;
+	width: 87%;
+	border-radius: 15px;
+}
+.tiles{
+	height: 20vh;
+	width: 20vh;
+	margin-top: 20px;
+	background-color: black;
+	margin-left: 20px;
+	color: green;
+	font-size: 58px;
+	border: black;
+	border-radius: 15px;
+}
+.tiles1{
+	height: 20vh;
+	width:20vh;
+	margin-top: 20px;
+	margin-right: 10px;
+	background-color: black;
+	margin-left: 20px;
+	color: green;
+	font-size: 58px;
+	border: black;
+	border-radius: 15px;
+}
+
+
+	
