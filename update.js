@@ -6,13 +6,27 @@ function increase(clicked_id){
     x = document.getElementById(clicked_id).value;
     z=parseInt(x);
     
-    if(z>48){
-        document.getElementById(clicked_id).innerHTML=" ";
-        
-    }
-    else{
-        y=z+24;
-        document.getElementById(clicked_id).innerHTML=y;
+	var doc=document.getElementById(id);
+	
+	
+	if (Number(doc.innerHTML)==a)
+    {
+        if((Number(doc.innerHTML)+ 24 ) >40){ 
+            doc.innerHTML=" ";
+        }
+        else{
+            y=Number(doc.innerHTML) + 24;
+           doc.innerHTML=y;
+
+        }
+        a++;
+        if(a==40)
+        {
+            stoptimer();
+            on();
+            update_score();
+
+        }
     }
   
 
