@@ -57,18 +57,19 @@ else{
 
 
 function StartStop(){
-	if(status === "stopped"){
+	
 		
 		interval = window.setInterval(stopWatch, 1);
 	    status = "started"; 
-	}
 	
-	else{
-		window.clearInterval(interval);
-		status = "stopped";
-	}
-}
 
 function stoptimer(){
     clearInterval(interval);
+}
+	function clear_timer(){
+    stoptimer();
+	mseconds=0;
+	seconds=0;
+	minutes=0;
+    document.getElementById("stopwatch").innerHTML=  "00"+":"+"00"+"."+"000";
 }
