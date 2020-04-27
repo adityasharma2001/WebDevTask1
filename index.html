@@ -10,21 +10,21 @@
     <div class="timer">
         <h1 class="time">Time</h1>
 		<h1 class="stopwatch" id="stopwatch">00:00.000</h1>
-		<h1 class="besttime">Best Time</h1>
-		<h1 class="beststopwatch">00:00.000</h1>
+		<h1 class="besttime" id="btn2" onclick="print_score()">Best Time<br></h1>
+		<dev class="score" id="last5scores"></div>
 	</div>	
 	
 	
 	<div class="start">
 	
 	    <p class="info">Click<b> The Numbers 1-40 in Increasing Order</b> as fast as you can!!!</p>
-		<button type="button" class="newgame" id="newgame" onclick="StartStop()"><b>New game</b></button>
+		<button type="button" class="newgame" id="newgame" onclick="Assignnumb()"><b>New game</b></button>
 	</div>
 	
 	<div class="grid">
 	    <div class="1strow">
 		<button type="button" class="tiles" id="bt_1" onclick="increase('bt_1')">56</button>
-		<button type="button" class="tiles" id="bt_2" onclick="increase'(bt_2')">56</button>
+		<button type="button" class="tiles" id="bt_2" onclick="increase('bt_2')">56</button>
 		<button type="button" class="tiles" id="bt_3" onclick="increase('bt_3')">56</button>
 		<button type="button" class="tiles" id="bt_4" onclick="increase('bt_4')">56</button>
 		<button type="button" class="tiles" id="bt_5" onclick="increase('bt_5')">56</button>
@@ -61,6 +61,7 @@
 	<script src="stopwatch.js"></script>
 	<script src="random.js"></script>
 	<script src="update.js"></script>
+	<script src="besttime.js"></script>
 	
 
 
