@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     Assignnumb();
   });
 function Assignnumb()
-{  
+{ 
+	a=1;
+	
     function GenerateRandomNumber(min,max){
         let st1= max-min+1;
         let st2=Math.random()*st1;
@@ -33,6 +35,7 @@ for(var i=1; i<25;i++){
         document.getElementById("bt_"+ i).innerHTML=ab;
 
     }
+	clear_timer();
 }
 
 
